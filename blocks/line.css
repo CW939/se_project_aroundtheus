@@ -1,18 +1,10 @@
 .line {
-  border: 1px solid #545454;
   border-bottom: 1px solid #545454;
   display: block;
   margin: auto;
-  width: 880px;
-  height: 1px;
+  margin-top: 4.5%;
+  width: 100%;
 
   /* box-sizing: border-box; */
-  border: 1px solid #545454;
-  padding-bottom: 0.045%;
-
-  /* left: 200px;
-  top: 119px;
-
-  padding-top: 200px;
-  padding-bottom: 200px; */
+  /* border: 1px solid #545454; */
 }
