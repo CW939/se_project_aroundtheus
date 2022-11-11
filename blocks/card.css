@@ -27,6 +27,14 @@
 }
 
 .card__title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.card__place {
   font-family: "Inter-Bold", sans-serif;
   font-weight: 900;
   font-size: 24px;
@@ -35,29 +43,9 @@
   text-overflow: ellipsis;
   white-space: no-wrap;
   overflow: hidden;
-  margin-left: 20px;
-  margin-bottom: 25px;
-  margin-right: 20px;
-
-  /* display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-left: 20px;
-  margin-bottom: 25px;
-  text-align: center; */
-}
-
-.card__space {
-  flex-grow: 1;
 }
 
 .card__heart {
   width: 21px;
   height: 18px;
-
-  margin-bottom: 5px;
-  vertical-align: bottom;
-
-  /* align-self: flex-end; */
-  /* margin-right: 20px; */
 }
