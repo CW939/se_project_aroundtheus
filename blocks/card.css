@@ -32,7 +32,6 @@
   line-height: 1.2;
   color: black;
   text-overflow: ellipsis;
-  white-space: no-wrap;
   overflow: hidden;
 }
 
