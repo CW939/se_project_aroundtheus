@@ -19,7 +19,9 @@
   font-weight: 500;
   font-size: 42px;
   line-height: 1.1;
-  margin: auto 0 0 40px;
+  margin: auto 0 auto 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .titleblock__subtitle {
@@ -40,7 +42,7 @@
   align-items: center;
   position: relative;
   left: 10px;
-  bottom: 5px;
+  bottom: 10px;
 }
 
 .titleblock__editpen {
@@ -86,7 +88,7 @@
   .titleblock__edit-rectangle {
     position: relative;
     left: 120px;
-    bottom: 70px;
+    bottom: 60px;
   }
 }
 
