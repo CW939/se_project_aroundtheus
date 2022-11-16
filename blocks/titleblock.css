@@ -81,14 +81,21 @@
     margin-top: 14px;
   }
 
+  .titleblock__editpen {
+    width: 10px;
+    height: 10px;
+  }
+
   .titleblock__add-rectangle {
     width: 282px;
   }
 
   .titleblock__edit-rectangle {
+    width: 18px;
+    height: 18px;
     position: relative;
-    left: 120px;
-    bottom: 60px;
+    left: 110px;
+    bottom: 55px;
   }
 }
 
