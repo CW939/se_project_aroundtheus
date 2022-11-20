@@ -19,9 +19,13 @@
   font-weight: 500;
   font-size: 42px;
   line-height: 1.1;
-  margin: auto 0 auto 40px;
+  margin: auto 18px auto 40px;
   display: flex;
   flex-direction: column;
+}
+
+.titleblock__titleline {
+  display: flex;
 }
 
 .titleblock__subtitle {
@@ -29,25 +33,20 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  margin-top: 2%;
   line-height: 1.14;
+  margin: 16px 0 auto 40px;
 }
 
 .titleblock__edit-rectangle {
   width: 24px;
   height: 24px;
   border: 1px solid #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  left: 10px;
-  bottom: 10px;
-}
-
-.titleblock__editpen {
-  width: 10px;
-  height: 10px;
+  background: #000000;
+  background-image: url("../images/editpen.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  cursor: pointer;
 }
 
 .titleblock__add-rectangle {
@@ -55,35 +54,46 @@
   width: 150px;
   height: 50px;
   border: 2px solid #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: #000000;
+  border-radius: 2px;
+  background-image: url("../images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   margin-left: auto;
+  cursor: pointer;
 }
 
-.titleblock__plus {
-  width: 22px;
-  height: 22px;
+.titleblock__edit-rectangle:hover {
+  opacity: 60%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 580px) {
+.titleblock__add-rectangle:hover {
+  opacity: 60%;
+}
+
+@media screen and (min-width: 580px) and (max-width: 1000px) {
+  .titleblock__title {
+    font-size: 22px;
+    margin: 14px 18px 14px 40px;
+  }
+
+  .titleblock__subtitle {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 580px) {
   .titleblock {
     flex-direction: column;
     margin-bottom: 36px;
   }
   .titleblock__title {
     font-size: 22px;
-    line-height: 1.1;
-    margin: 36px auto 0px auto;
+    margin: 36px 10px 0px auto;
   }
   .titleblock__subtitle {
     text-align: center;
-    margin-top: 14px;
-  }
-
-  .titleblock__editpen {
-    width: 10px;
-    height: 10px;
+    margin: 16px auto 36px auto;
   }
 
   .titleblock__add-rectangle {
@@ -93,31 +103,6 @@
   .titleblock__edit-rectangle {
     width: 18px;
     height: 18px;
-    position: relative;
-    left: 110px;
-    bottom: 55px;
-  }
-}
-
-@media screen and (min-width: 580px) and (max-width: 1000px) {
-  .titleblock__title {
-    font-size: 22px;
-    line-height: 1.1;
-    margin: 14px auto 14px auto;
-  }
-
-  .titleblock__subtitle {
-    margin-top: 14px;
-  }
-
-  .titleblock__add-rectangle {
-    margin: auto;
-  }
-
-  .titleblock__edit-rectangle {
-    margin: 20px;
-    position: relative;
-    left: 0px;
-    bottom: 0px;
+    align-self: flex-end;
   }
 }

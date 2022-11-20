@@ -24,6 +24,7 @@ The README.md file contains the following:
 Project 3. Checklist 3
 
 1. The project's name
+
 # Project 3: Around The U.S.
 
 2. A description of the project and its functionality
@@ -31,4 +32,7 @@ Project 3. Checklist 3
 4. Pictures, GIFs, or screenshots that detail the project features (highly
    recommended)
 5. The link to GitHub Pages
+   https://cw939.github.io/se_project_aroundtheus/
+
+   Link to Git Hub repository
    https://github.com/CW939/se_project_aroundtheus.git

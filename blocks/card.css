@@ -2,8 +2,6 @@
   background: #ffffff;
   border-radius: 10px;
   box-sizing: border-box;
-  max-width: 282px;
-  max-height: 361px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -20,22 +18,34 @@
   display: flex;
   justify-content: space-between;
   margin-left: 20px;
-  margin-bottom: 25px;
   margin-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   align-items: center;
 }
 
 .card__place {
-  font-family: "Inter-Black", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 24px;
   line-height: 1.2;
   color: black;
   text-overflow: ellipsis;
   overflow: hidden;
+  margin: 0 0 0 0;
 }
 
 .card__heart {
-  width: 21px;
+  width: 24px;
   height: 18px;
+  background-image: url("../images/Vector.svg");
+  background-color: white;
+  background-size: 21px 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.card__heart:hover {
+  opacity: 60%;
 }

@@ -10,111 +10,100 @@
   </head>
   <body class="body">
     <div class="page">
-      <img class="logo" src="images/AroundTheUS.svg" alt="Around The U.S." />
-      <div class="line"></div>
-      <section class="titleblock">
+      <header class="header">
         <img
-          class="titleblock__image"
-          src="images/jacques-cousteau.jpg"
-          alt="Jacques Cousteau"
+          class="header__logo"
+          src="images/AroundTheUS.svg"
+          alt="Around The U.S."
         />
-        <h1 class="titleblock__title">
-          Jacques Cousteau<span class="titleblock__subtitle">Explorer</span>
-        </h1>
-        <div class="titleblock__edit-rectangle">
+      </header>
+      <main>
+        <section class="titleblock">
           <img
-            class="titleblock__editpen"
-            src="images/editpen.png"
-            alt="edit"
+            class="titleblock__image"
+            src="images/jacques-cousteau.jpg"
+            alt="Jacques Cousteau"
           />
-        </div>
-        <div class="titleblock__add-rectangle">
-          <img class="titleblock__plus" src="images/plus.png" alt="add" />
-        </div>
-      </section>
-
-      <section class="gallery">
-        <div class="card">
-          <img
-            class="card__image"
-            src="images/yosemite-valley.jpg"
-            alt="Yosemite Valley"
-          />
-          <div class="card__title">
-            <h3 class="card__place">Yosemite Valley</h3>
-            <span
-              ><img class="card__heart" src="images/Vector.svg" alt="Favorite"
-            /></span>
+          <div>
+            <div class="titleblock__titleline">
+              <h1 class="titleblock__title">Jacques Cousteau</h1>
+              <button class="titleblock__edit-rectangle" type="button"></button>
+            </div>
+            <h2 class="titleblock__subtitle">Explorer</h2>
           </div>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="images/lake-louise.png"
-            alt="Yosemite Valley"
-          />
-          <div class="card__title">
-            <h3 class="card__place">Lake Louise</h3>
-            <span
-              ><img class="card__heart" src="images/Vector.svg" alt="Favorite"
-            /></span>
+          <button class="titleblock__add-rectangle" type="button"></button>
+        </section>
+        <section class="gallery">
+          <div class="card">
+            <img
+              class="card__image"
+              src="images/yosemite-valley.jpg"
+              alt="Yosemite Valley"
+            />
+            <div class="card__title">
+              <p class="card__place">Yosemite Valley</p>
+              <button type="button" class="card__heart"></button>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="images/bald-mountains.png"
-            alt="Yosemite Valley"
-          />
-          <div class="card__title">
-            <h3 class="card__place">Bald Mountains</h3>
-            <span
-              ><img class="card__heart" src="images/Vector.svg" alt="Favorite"
-            /></span>
+          <div class="card">
+            <img
+              class="card__image"
+              src="images/lake-louise.png"
+              alt="Yosemite Valley"
+            />
+            <div class="card__title">
+              <p class="card__place">Lake Louise</p>
+              <button type="button" class="card__heart"></button>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="images/latemar.png"
-            alt="Yosemite Valley"
-          />
-          <div class="card__title">
-            <h3 class="card__place">Latemar</h3>
-            <span
-              ><img class="card__heart" src="images/Vector.svg" alt="Favorite"
-            /></span>
+          <div class="card">
+            <img
+              class="card__image"
+              src="images/bald-mountains.png"
+              alt="Yosemite Valley"
+            />
+            <div class="card__title">
+              <p class="card__place">Bald Mountains</p>
+              <button type="button" class="card__heart"></button>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="images/vanoise-national-park.png"
-            alt="Yosemite Valley"
-          />
-          <div class="card__title">
-            <h3 class="card__place">Vanoise National Park</h3>
-            <span
-              ><img class="card__heart" src="images/Vector.svg" alt="Favorite"
-            /></span>
+          <div class="card">
+            <img
+              class="card__image"
+              src="images/latemar.png"
+              alt="Yosemite Valley"
+            />
+            <div class="card__title">
+              <p class="card__place">Latemar</p>
+              <button type="button" class="card__heart"></button>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="images/lago-di-braies.png"
-            alt="Yosemite Valley"
-          />
-          <div class="card__title">
-            <h3 class="card__place">Lago di Braies</h3>
-            <span
-              ><img class="card__heart" src="images/Vector.svg" alt="Favorite"
-            /></span>
+          <div class="card">
+            <img
+              class="card__image"
+              src="images/vanoise-national-park.png"
+              alt="Yosemite Valley"
+            />
+            <div class="card__title">
+              <p class="card__place">Vanoise National Park</p>
+              <button type="button" class="card__heart"></button>
+            </div>
           </div>
-        </div>
-      </section>
-      <footer>
-        <p class="footer">&copy;2022 Around The U.S.</p>
+          <div class="card">
+            <img
+              class="card__image"
+              src="images/lago-di-braies.png"
+              alt="Yosemite Valley"
+            />
+            <div class="card__title">
+              <p class="card__place">Lago di Braies</p>
+              <button type="button" class="card__heart"></button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy;2022 Around The U.S.</p>
       </footer>
     </div>
   </body>
