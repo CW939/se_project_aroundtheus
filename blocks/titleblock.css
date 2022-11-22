@@ -20,12 +20,10 @@
   font-size: 42px;
   line-height: 1.1;
   margin: auto auto auto 40px;
-  display: flex;
-  flex-direction: column;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .titleblock__titleline {
