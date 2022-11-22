@@ -39,13 +39,14 @@
   width: 24px;
   height: 18px;
   background-image: url("../images/Vector.svg");
-  background-color: white;
+  background-color: transparent;
   background-size: 21px 18px;
   background-position: center;
   background-repeat: no-repeat;
   border: none;
+  cursor: pointer;
 }
 
 .card__heart:hover {
-  opacity: 60%;
+  opacity: 50%;
 }

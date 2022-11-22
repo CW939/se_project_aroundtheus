@@ -28,7 +28,9 @@ Project 3. Checklist 3
 # Project 3: Around The U.S.
 
 2. A description of the project and its functionality
+   A gallery of cards displaying locations of interest in the United States. Add, remove, edit, and favorite cards.
 3. A description of the technologies and techniques used
+   Flexbox, Grid, CSS properties.
 4. Pictures, GIFs, or screenshots that detail the project features (highly
    recommended)
 5. The link to GitHub Pages
