@@ -108,6 +108,8 @@
     text-align: center;
     margin: 16px auto 36px auto;
     max-width: 250px;
+    font-size: 14px;
+    line-height: 17px;
   }
 
   .titleblock__add-rectangle {
