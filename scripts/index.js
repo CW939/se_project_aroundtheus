@@ -35,3 +35,5 @@ let initialCards = {
   cardVanoise,
   cardLago,
 };
+
+const openModal = null;
