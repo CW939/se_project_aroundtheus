@@ -7,6 +7,7 @@ const cardLakeLouise = {
   name: "Lake Louise",
   link: "../images/lake-louise.png",
 };
+
 const cardBaldMountains = {
   name: "Bald Mountains",
   link: "../images/bald-mountains.png",
